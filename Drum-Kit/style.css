@@ -1,0 +1,67 @@
+html {
+  font-size: 10px;
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #7e97d5,
+    #6792c6,
+    #578cb4,
+    #43758d,
+    #385d69,
+    #314549,
+    #292e2e
+  );
+}
+
+body,
+html,
+kbd {
+  margin: 0;
+  padding: 0;
+  font-family: "Kufam", cursive;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: 0.3rem solid rgb(247, 247, 247);
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.644);
+  text-shadow: 0 0 0.5rem black;
+  box-shadow: -1px 3px 21px -1px rgba(0, 0, 0, 0.71);
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #ffc600;
+}
