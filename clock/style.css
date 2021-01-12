@@ -1,0 +1,124 @@
+html {
+  background-image: linear-gradient(to right bottom,
+    #d16bd1, #b084e9, #8d99f6,
+    #6ea9f7, #5fb6f0, #57b7f3,
+    #4eb7f5, #44b8f8, #47acff,
+    #6f9cff, #a085ff, #d064f6);
+  font-family: 'Hachi Maru Pop', cursive;
+  text-align: center;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-size: 2rem;
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.clock {
+  width: 27rem;
+  height: 27rem;
+  border: 10px solid white;
+  border-radius: 50%;
+  margin: 3% 0 8.5% 0;
+  position: relative;
+  padding: 2rem;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #efefef,
+    inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px);
+}
+
+.hand {
+  width: 50%;
+  height: 6px;
+  background: black;
+  border-radius: 50px 50px 50px 50px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.twelve,
+.three,
+.six,
+.nine {
+  position: absolute;
+  color: #efefef;
+  font-size: 30px;
+}
+
+.nine,
+.three {
+  bottom: 45%;
+}
+
+.nine {
+  left: 0;
+}
+
+.three {
+  right: 0;
+}
+
+.twelve,
+.six {
+  left: 45%;
+}
+
+.six {
+  bottom: 0;
+}
+
+.hour-hand {
+  width: 35%;
+}
+
+.min-hand {
+  width: 45%;
+}
+
+.second-hand {
+  width: 48%;
+}
+
+.icons>a>svg {
+  width: 28px;
+  height: 28px;
+  margin-right: 15px;
+  transition: all 0.2s;
+}
+
+.icons>a>svg:hover {
+  width: 32px;
+  height: 32px;
+}
+
+.icons>a {
+  text-decoration: none;
+}
+
+.icons>a:active {
+  transform: scale(0.95);
+}
+
+footer {
+  font-size: small;
+  text-align: center;
+  color: #fff;
+  line-height: 5px;
+}
