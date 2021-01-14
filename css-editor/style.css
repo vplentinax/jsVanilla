@@ -1,0 +1,70 @@
+:root {
+  --base: #ffff00;
+  --blur: 10px;
+  --spacing: 10px;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  color: #213c49;
+  background-image: linear-gradient(
+    to right bottom,
+    #fde77d,
+    #ffd071,
+    #feb86a,
+    #f9a268,
+    #f18c69,
+    #ef8b6a,
+    #ee8a6a,
+    #ec896b,
+    #f29b6b,
+    #f7ad6e,
+    #f9c074,
+    #f9d37d
+  );
+  font-weight: 100;
+  font-size: 3rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  border-radius: 20px;
+}
+
+label {
+  font-size: 2rem;
+}
+
+input {
+  width: 100px;
+}
+
+.hl {
+  color: var(--base);
+}
+
+.controls {
+  margin-bottom: 50px;
+}
