@@ -1,5 +1,5 @@
-# jsVanilla30
-30 days of Javascript Vanilla
+# jsVanilla
+Mini projects in Javascript Vanilla
 
 ## **Day 1** 
 
