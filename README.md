@@ -24,3 +24,8 @@ Mini projects in Javascript Vanilla
 ## **Day 5**
 
 <img width="500" height="500" src="https://i.ibb.co/TDQkstF/Screenshot-from-2021-02-04-15-09-33.png" alt="Screenshot-from-2021-02-04-15-09-33" border="0">
+
+
+## **Day 6**
+
+<img width="500" height="500" src="https://i.ibb.co/YB6zJWw/Screenshot-from-2021-02-04-17-40-13.png" alt="Screenshot-from-2021-02-04-17-40-13" border="0">
