@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link
     href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,700&display=swap"
-    rel="stylesheet">
+    rel="stylesheet" />
   <title>CSS Editor</title>
 </head>
 
@@ -25,20 +25,9 @@
   </div>
 
   <img
-    src='https://i.postimg.cc/vmPGqqT4/3856-Yorkshire-Terrier-El-Mundodel-Perro.jpg'
-    border='0' alt='3856-Yorkshire-Terrier-El-Mundodel-Perro' />
+    src="https://i.postimg.cc/vmPGqqT4/3856-Yorkshire-Terrier-El-Mundodel-Perro.jpg"
+    border="0" alt="3856-Yorkshire-Terrier-El-Mundodel-Perro" />
 
-  <script>
-    const inputs = document.querySelectorAll('.controls input')
-
-    function handleUpdate() {
-      const suffix = this.dataset.sizing || '';
-      document.documentElement.style.setProperty(`--${this.name}`, `${this.value}${suffix}`);
-    }
-
-    inputs.forEach(input => {
-      input.addEventListener('change', handleUpdate)
-    });
-  </script>
+  <script src="index.js"></script>
 </body>
 </html>
