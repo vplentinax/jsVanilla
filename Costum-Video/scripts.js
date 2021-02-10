@@ -7,31 +7,31 @@ const skipButtons = player.querySelectorAll('[data-skip]')
 const ranges = player.querySelectorAll('.player__slider')
 
 function togglePlay() {
-	const method = video.paused ? 'play' : 'pause'
-	video[method]()
+  const method = video.paused ? 'play' : 'pause'
+  video[method]()
 }
 
 function updateButton() {
-	const icon = this.paused ? '►' : '❚❚'
-	toggle.textContent = icon
+  const icon = this.paused ? '►' : '❚❚'
+  toggle.textContent = icon
 }
 
 function skip() {
-	video.currentTime += parseFloat(this.dataset.skip)
+  video.currentTime += parseFloat(this.dataset.skip)
 }
 
 function handleRangeUpdate() {
-	video[this.name] = this.value
+  video[this.name] = this.value
 }
 
 function handleProgress() {
-	const percent = (video.currentTime / video.duration) * 100
-	progressBar.style.flexBasis = `${percent}%`
+  const percent = (video.currentTime / video.duration) * 100
+  progressBar.style.flexBasis = `${percent}%`
 }
 
 function scrub(e) {
-	const scrubTime = (e.offsetX / progress.offsetWidth) * video.duration
-	video.currentTime = scrubTime
+  const scrubTime = (e.offsetX / progress.offsetWidth) * video.duration
+  video.currentTime = scrubTime
 }
 
 video.addEventListener('click', togglePlay)
