@@ -30,6 +30,12 @@ Mini projects in Javascript Vanilla
 
 <img width="500" height="500" src="https://i.ibb.co/YB6zJWw/Screenshot-from-2021-02-04-17-40-13.png" alt="Screenshot-from-2021-02-04-17-40-13" border="0">
 
+
 ## **Day 7**
 
 <img width="500" height="500"  src="https://i.ibb.co/phc7HTx/Screenshot-from-2021-02-09-20-15-37.png" alt="Screenshot-from-2021-02-09-20-15-37" border="0">
+
+
+## **Day 8**
+
+<img  width="500" height="500"  src="https://i.ibb.co/0cpqmd4/Screenshot-from-2021-02-10-17-05-10.png" alt="Screenshot-from-2021-02-10-17-05-10" border="0">
