@@ -6,7 +6,7 @@
   "scripts": {
     "start": "browser-sync start --directory --server --files \"*.css, *.html, *.js\""
   },
-  "author": "",
+  "author": "vplentinax",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.12.5 <2.23.2"
