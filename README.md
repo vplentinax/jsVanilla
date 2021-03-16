@@ -1,5 +1,5 @@
-# jsVanilla
-Mini projects in Javascript Vanilla
+# 100DaysOfCode
+Mini projects in Javascript Vanilla for challange **100DaysOfCode**
 
 ## **Drum Kit** 
 
@@ -80,3 +80,13 @@ Mini projects in Javascript Vanilla
 ## **Video Speed Controller**
 
 <img width="500" height="500" src="https://i.ibb.co/fD8CHpm/Screenshot-from-2021-03-09-16-56-48.png" alt="Screenshot-from-2021-03-09-16-56-48" border="0">
+
+
+## **Countdown Clock**
+
+<img width="500" height="500" src="https://i.ibb.co/Hzm9hpF/Screenshot-from-2021-03-16-14-04-00.png" alt="Screenshot-from-2021-03-16-14-04-00" border="0">
+
+
+## **Catch a mole**
+
+<img width="500" height="500" src="https://i.ibb.co/4mdkVVP/Screenshot-from-2021-03-16-14-04-27.png" alt="Screenshot-from-2021-03-16-14-04-27" border="0">
