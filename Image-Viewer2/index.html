@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap"
+    rel="stylesheet">
+  <title>Image viewer</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="viewer">
+      <img src='./img/img2.jpg' alt='Cheetah' />
+    </div>
+    <div class="title">Cheetah</div>
+    <div class="btns">
+      <div class="ant">
+        <button class="prevAll" onclick="rall(0)">&#171;</button>
+        <button class="prev" onclick="prev()">&#8249;</button>
+      </div>
+      <div class="pos">
+        <button class="next" onclick="next()">&#8250;</button>
+        <button class="nextAll" onclick="rall(1)">&#187;</button>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
