@@ -8,7 +8,7 @@ Link: https://github.com/vplentinax/Movie-Comparator
 
 
 # **Maze Game**
-Link: https://vplentinax.github.io/Maze-Game/
+Link: https://github.com/vplentinax/Maze-Game
 
 <img width="500" height="500" src="https://i.ibb.co/BtcDkxD/Screenshot-from-2021-03-30-14-27-06.png" alt="Screenshot-from-2021-03-30-14-27-06" border="0">
 
