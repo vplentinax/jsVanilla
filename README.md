@@ -1,6 +1,18 @@
 # 100DaysOfCode
 Mini projects in Javascript Vanilla for challange **100DaysOfCode**
 
+# **Movie Comparator**
+Link: https://github.com/vplentinax/Movie-Comparator
+
+<img width="500" height="500" src="https://i.ibb.co/Xbgp04d/Screenshot-from-2021-03-30-14-25-48.png" alt="Screenshot-from-2021-03-30-14-25-48" border="0">
+
+
+# **Maze Game**
+Link: https://vplentinax.github.io/Maze-Game/
+
+<img width="500" height="500" src="https://i.ibb.co/BtcDkxD/Screenshot-from-2021-03-30-14-27-06.png" alt="Screenshot-from-2021-03-30-14-27-06" border="0">
+
+
 ## **Drum Kit** 
 
 <img width="500" height="500" src="https://i.ibb.co/xLvFFzr/Publicaci-n-de-Instagram-Colores-Atardecer-1.png" alt="Publicaci-n-de-Instagram-Colores-Atardecer-1" border="0">
